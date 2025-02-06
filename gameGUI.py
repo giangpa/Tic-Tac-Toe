@@ -9,6 +9,7 @@ class TicTacToeGUI:
         self.root.title("Tic Tac Toe")
         self.root.geometry("500x500")
         self.root.configure(bg="#2c3e50")
+        self.root.iconphoto(False, tk.PhotoImage(file="avatar.png"))
         self.mode = None  # "human" cho Human vs Human, "computer" cho Human vs Computer
         
         # Tạo màn hình chính (Main Menu)
